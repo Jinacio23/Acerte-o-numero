@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerte se puder!</title>
+
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/estilo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"     crossorigin>
+    <link href="https://fonts.googleapis.com/css2?  family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="card">
+        <h1 class="title">Adivinhe o número aproximado</h1>
+        <p class="txt">Dê um palpite de 1 a 100, você tem direito a dez tentativas.
+            Boa Sorte!</p>
+        <h2 class="round">Rodada</h2>
+        <p class="round-num" id="round-num">0</p>
+
+        <p class="palp-txt">Seu palpite:</p> <br>
+        <input class="palp-num" id="palp-num" type="number" class="palpite" placeholder="Seu palpite aqui..."></input>
+        <!-- <p id="dica" class="dica"><span>.</span></p>-->
+        <button class="btn" id="btn" type="submit" onclick="getValue()">Enviar</button>
+
+        <div class="dica" id="maior">
+            <h3>O número é um pouco maior</h3>
+            <button class="dica-btn" onclick="dica()">ok</button>
+        </div>
+        <div class="dica" id="menor">
+            <h3>O número é um pouco menor</h3>
+            <button class="dica-btn" onclick="dica()">ok</button>
+        </div>
+    </div>
+
+        
+    <div id="theEndWon" class="end">
+        <h3>Parabéns! Você acertou o número!</h3>
+        <a href="index.html" class="reset-btn">Reset</a>
+    </div>
+    <div id="theEndLose" class="end">
+        <h3>Que pena! Você perdeu...</h3>
+        <a href="index.html" class="reset-btn">Reset</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

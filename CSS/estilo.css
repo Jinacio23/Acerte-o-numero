@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(2, 185, 42);
+    max-height: 100vh;
+}
+
+.card{
+    background-color: #bbb;
+    width: 65vw;
+    height: 70%;
+    text-align: center;
+    margin: 12% auto 0;
+    padding: 20px 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px ;
+    position: relative;
+}
+
+.title{
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.txt{
+    margin-top: 20px;
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+.round{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.round-num{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.palp-txt{
+    margin-bottom: -10px;
+    font-size: 20px;
+}
+
+.palp-num{
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #999;
+    padding: 5px;
+    text-align: center;
+    max-width: 180px;
+}
+
+.palp-num::placeholder{
+    color:white;
+    font-weight: 800;
+}
+
+.dica{
+    margin-top: 5px;
+    font-size: 16px; 
+}
+ 
+.btn {
+    margin: 10px auto 0;
+    font-size: 22px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(3, 211, 48);
+    color: #fff;
+    font-weight: 800;
+    display: block;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(4, 153, 36);
+}
+
+.end{
+    background-color: #bbb;
+    position: absolute;
+    width: 70vw;
+    height: 30vh;
+    top: calc(70vh / 2);
+    right: calc(30vw / 2);
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px 30px;
+    font-size: 30px;
+    display: none;
+}
+
+.reset-btn{
+    text-decoration: none;
+    color: rgb(209, 206, 206);
+    background-color: rgb(3, 211, 48);
+    border: none;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 5px 10px;
+    margin: 25px 35% 0;
+    border-radius: 25px;
+    display: block;
+}
+
+.reset-btn:hover{
+    cursor: pointer;
+    background-color: rgb(4, 153, 36);
+}
+
+.dica{
+    position: absolut;
+    background-color: #bbb;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 15px;
+    display: none;
+}
+
+.dica h3{
+    display: inline-block;
+    margin-right: 0px;
+    font-size: 20px;
+    max-width: 69%;
+    word-wrap: break-word;
+    padding-top: 10px;
+}
+.dica .dica-btn{
+    max-width: 31%;
+    margin: 10px;
+    text-align: center;
+    font-size: 22px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(3, 211, 48);
+    color: #fff;
+    font-weight: 800;
+}
+.dica .dica-btn:hover{
+    cursor: pointer;
+    background-color: rgb(4, 153, 36);
+}
+
